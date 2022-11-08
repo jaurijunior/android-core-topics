@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".intent.common.CommonIntentsActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <Button
+                android:id="@+id/alarm_clock_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_clock" />
+
+            <Button
+                android:id="@+id/timer_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/timer" />
+
+            <Button
+                android:id="@+id/calendar_event_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calendar" />
+
+            <Button
+                android:id="@+id/camera_intent_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/camera" />
+
+            <Button
+                android:id="@+id/contacts_view_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacts" />
+
+            <Button
+                android:id="@+id/email_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email" />
+
+            <Button
+                android:id="@+id/file_storage_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/file_storage" />
+
+            <Button
+                android:id="@+id/maps_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/maps" />
+
+            <Button
+                android:id="@+id/new_note_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_note" />
+
+            <Button
+                android:id="@+id/phone_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone" />
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/search" />
+
+            <Button
+                android:id="@+id/settings_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings" />
+
+            <Button
+                android:id="@+id/text_messaging_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_messaging" />
+
+            <Button
+                android:id="@+id/web_browser_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/web_browser" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
