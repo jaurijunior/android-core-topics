@@ -27,11 +27,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".intent.IntentsActivity" />
         <activity android:name=".intent.explicit.ExplicitIntentActivity" />
         <activity android:name=".intent.implicit.ImplicitActivity" />
         <activity android:name=".intent.common.CommonIntentsActivity" />
         <activity android:name=".intent.common.ContactsActivity" />
+        <activity android:name=".service.ServiceSampleActivity" />
+        <!-- Required to run the service -->
+        <service android:name=".service.ServiceSample" />
     </application>
 
 </manifest>

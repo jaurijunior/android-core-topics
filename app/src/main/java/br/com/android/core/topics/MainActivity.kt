@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import br.com.android.core.topics.databinding.ActivityMainBinding
 import br.com.android.core.topics.intent.IntentsActivity
+import br.com.android.core.topics.service.ServiceSampleActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             intentButtonMain.setOnClickListener {
                 startActivity(Intent(baseContext, IntentsActivity::class.java))
+            }
+            servicesMain.setOnClickListener {
+                startActivity(Intent(baseContext, ServiceSampleActivity::class.java))
             }
         }
 
